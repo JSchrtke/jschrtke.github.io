@@ -1,2 +1,6 @@
 <h1>Hello, World!</h1>
-<script>alert('hello')<script>
+<script>
+if (!Date.now) {
+    Date.now = function() { return new Date().getTime(); }
+}
+<script>
