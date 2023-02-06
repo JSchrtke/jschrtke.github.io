@@ -1,0 +1,3 @@
+[submodule "simple-webpage"]
+	path = simple-webpage
+	url = git@github.com:JSchrtke/simple-webpage.git
